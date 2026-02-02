@@ -20,16 +20,16 @@
 export default {
     'interface': {
         'en': {
-            'device.arduinoUnoR4Wifi.description': 'Provides Wi-Fi and Bluetooth connectivity, along with an on-board 12x8 LED matrix for visualizations.'
+            'arduinoUnoR4Wifi.description': 'Provides Wi-Fi and Bluetooth connectivity, along with an on-board 12x8 LED matrix for visualizations.'
         },
         'ru': {
-            'device.arduinoUnoR4Wifi.description': 'Provides Wi-Fi and Bluetooth connectivity, along with an on-board 12x8 LED matrix for visualizations.'
+            'arduinoUnoR4Wifi.description': 'Provides Wi-Fi and Bluetooth connectivity, along with an on-board 12x8 LED matrix for visualizations.'
         },
         'zh-cn': {
-            'device.arduinoUnoR4Wifi.description': 'Provides Wi-Fi and Bluetooth connectivity, along with an on-board 12x8 LED matrix for visualizations.'
+            'arduinoUnoR4Wifi.description': 'Provides Wi-Fi and Bluetooth connectivity, along with an on-board 12x8 LED matrix for visualizations.'
         },
         'zh-tw': {
-            'device.arduinoUnoR4Wifi.description': 'Provides Wi-Fi and Bluetooth connectivity, along with an on-board 12x8 LED matrix for visualizations.'
+            'arduinoUnoR4Wifi.description': 'Provides Wi-Fi and Bluetooth connectivity, along with an on-board 12x8 LED matrix for visualizations.'
         }
     },
     'extensions': {
