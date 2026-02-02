@@ -1,6 +1,3 @@
 #!/bin/sh
-
-# Verify that git tag matches package.json version before pushing
-# This prevents accidentally pushing tags that don't match the version
-
+npx openblock-registry-cli validate
 npx openblock-registry-cli verify-tag
