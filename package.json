@@ -14,6 +14,7 @@
     "build:obfuscate": "npx openblock-registry-cli build --obfuscate",
     "publish": "npx openblock-registry-cli publish",
     "publish:dry": "npx openblock-registry-cli publish --dry-run",
+    "validate": "npx openblock-registry-cli validate",
     "i18n:update": "npx openblock-registry-cli i18n update",
     "lint": "eslint . --ext .js --fix"
   },
