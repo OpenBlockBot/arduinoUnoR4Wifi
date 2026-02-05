@@ -41,12 +41,8 @@
     "connectionSmallIconURL": "./assets/arduinoUnoR4Wifi-small.svg",
     "main": "./src/arduinoUnoR4Wifi.js",
     "translations": "./src/translations.js",
-    "dependencies": {
-        "toolchains": {
-            "arduino-arduino-renesas_uno": "latest"
-        }
-    },
-    "programMode": ["realtime"],
+    "toolchains": "arduino-arduino-renesas_uno",
+    "programMode": ["upload"],
     "programLanguage": ["block", "cpp"],
     "tags": ["arduino"],
     "helpLink": "https://wiki.openblock.cc/general-hardware-guidelines/boards/arduino-uno-r4-wifi"
