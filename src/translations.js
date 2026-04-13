@@ -26,7 +26,7 @@ export default {
             'arduinoUnoR4Wifi.description': 'Provides Wi-Fi and Bluetooth connectivity, along with an on-board 12x8 LED matrix for visualizations.'
         },
         'zh-cn': {
-            'arduinoUnoR4Wifi.description': 'Provides Wi-Fi and Bluetooth connectivity, along with an on-board 12x8 LED matrix for visualizations.'
+            'arduinoUnoR4Wifi.description': '提供 Wi-Fi 和蓝牙连接，并配备板载 12x8 LED 点阵用于可视化显示。'
         },
         'zh-tw': {
             'arduinoUnoR4Wifi.description': 'Provides Wi-Fi and Bluetooth connectivity, along with an on-board 12x8 LED matrix for visualizations.'
@@ -129,13 +129,13 @@ export default {
             'arduinoUnoR4Wifi.InterrupModeMenu.fallingEdge': 'falling edge',
             'arduinoUnoR4Wifi.InterrupModeMenu.changeEdge': 'change edge',
             'arduinoUnoR4Wifi.InterrupModeMenu.low': 'low',
-            'arduinoUnoR4Wifi.ledState.on': 'on',
-            'arduinoUnoR4Wifi.ledState.off': 'off',
-            'arduinoUnoR4Wifi.eolMenu.warp': 'warp',
-            'arduinoUnoR4Wifi.eolMenu.noWarp': 'no-warp',
+            'arduinoUnoR4Wifi.ledState.on': '开',
+            'arduinoUnoR4Wifi.ledState.off': '关闭',
+            'arduinoUnoR4Wifi.eolMenu.warp': '换行',
+            'arduinoUnoR4Wifi.eolMenu.noWarp': '不换行',
             'arduinoUnoR4Wifi.dataTypeMenu.integer': 'integer',
             'arduinoUnoR4Wifi.dataTypeMenu.decimal': 'decimal',
-            'arduinoUnoR4Wifi.dataTypeMenu.string': 'string',
+            'arduinoUnoR4Wifi.dataTypeMenu.string': '字符串',
             'arduinoUnoR4Wifi.category.pins': 'Pins',
             'arduinoUnoR4Wifi.pins.setPinMode': 'set pin [PIN] mode [MODE]',
             'arduinoUnoR4Wifi.pins.setDigitalOutput': 'set digital pin [PIN] out [LEVEL]',
