@@ -20,16 +20,72 @@
 export default {
     'interface': {
         'en': {
-            'arduinoUnoR4Wifi.description': 'Provides Wi-Fi and Bluetooth connectivity, along with an on-board 12x8 LED matrix for visualizations.'
+            'arduinoUnoR4Wifi.description': 'Provides Wi-Fi and Bluetooth connectivity, along with an on-board 12x8 LED matrix for visualizations.',
+            'arduinoUnoR4Wifi.examples.blink.name': 'Blink',
+            'arduinoUnoR4Wifi.examples.blink.description': 'Make the on-board LED blink.',
+            'arduinoUnoR4Wifi.examples.button.name': 'Button',
+            'arduinoUnoR4Wifi.examples.button.description': 'Light up the LED while a push button is pressed.',
+            'arduinoUnoR4Wifi.examples.fade.name': 'Fade',
+            'arduinoUnoR4Wifi.examples.fade.description': 'Smoothly fade an LED in and out using PWM.',
+            'arduinoUnoR4Wifi.examples.knob.name': 'Knob',
+            'arduinoUnoR4Wifi.examples.knob.description': 'Control LED brightness with a potentiometer.',
+            'arduinoUnoR4Wifi.examples.servoSweep.name': 'Servo Sweep',
+            'arduinoUnoR4Wifi.examples.servoSweep.description': 'Sweep a servo back and forth between 0 and 180 degrees.',
+            'arduinoUnoR4Wifi.examples.serialMonitor.name': 'Serial Monitor',
+            'arduinoUnoR4Wifi.examples.serialMonitor.description': 'Print analog readings to the Serial Monitor every half second.',
+            'arduinoUnoR4Wifi.examples.ledMatrix.name': 'LED Matrix',
+            'arduinoUnoR4Wifi.examples.ledMatrix.description': 'Display a blinking heart on the on-board 12x8 LED matrix.'
         },
         'ru': {
-            'arduinoUnoR4Wifi.description': 'Provides Wi-Fi and Bluetooth connectivity, along with an on-board 12x8 LED matrix for visualizations.'
+            'arduinoUnoR4Wifi.description': 'Provides Wi-Fi and Bluetooth connectivity, along with an on-board 12x8 LED matrix for visualizations.',
+            'arduinoUnoR4Wifi.examples.blink.name': 'Мигание',
+            'arduinoUnoR4Wifi.examples.blink.description': 'Заставьте встроенный светодиод мигать.',
+            'arduinoUnoR4Wifi.examples.button.name': 'Кнопка',
+            'arduinoUnoR4Wifi.examples.button.description': 'Зажигайте светодиод, пока нажата кнопка.',
+            'arduinoUnoR4Wifi.examples.fade.name': 'Плавное затухание',
+            'arduinoUnoR4Wifi.examples.fade.description': 'Плавное затухание светодиода с помощью ШИМ.',
+            'arduinoUnoR4Wifi.examples.knob.name': 'Регулятор',
+            'arduinoUnoR4Wifi.examples.knob.description': 'Регулировка яркости светодиода с помощью потенциометра.',
+            'arduinoUnoR4Wifi.examples.servoSweep.name': 'Развертка серво',
+            'arduinoUnoR4Wifi.examples.servoSweep.description': 'Поворот серво вперед и назад между 0° и 180°.',
+            'arduinoUnoR4Wifi.examples.serialMonitor.name': 'Монитор порта',
+            'arduinoUnoR4Wifi.examples.serialMonitor.description': 'Печать аналоговых показаний в монитор порта каждые полсекунды.',
+            'arduinoUnoR4Wifi.examples.ledMatrix.name': 'LED-матрица',
+            'arduinoUnoR4Wifi.examples.ledMatrix.description': 'Отобразите мигающее сердце на встроенной LED-матрице 12x8.'
         },
         'zh-cn': {
-            'arduinoUnoR4Wifi.description': '提供 Wi-Fi 和蓝牙连接，并配备板载 12x8 LED 点阵用于可视化显示。'
+            'arduinoUnoR4Wifi.description': '提供 Wi-Fi 和蓝牙连接，并配备板载 12x8 LED 点阵用于可视化显示。',
+            'arduinoUnoR4Wifi.examples.blink.name': '闪烁',
+            'arduinoUnoR4Wifi.examples.blink.description': '让板载 LED 闪烁。',
+            'arduinoUnoR4Wifi.examples.button.name': '按键',
+            'arduinoUnoR4Wifi.examples.button.description': '按住按键时点亮 LED。',
+            'arduinoUnoR4Wifi.examples.fade.name': '呼吸灯',
+            'arduinoUnoR4Wifi.examples.fade.description': '用 PWM 让 LED 缓缓变亮再渐渐变暗。',
+            'arduinoUnoR4Wifi.examples.knob.name': '电位器调光',
+            'arduinoUnoR4Wifi.examples.knob.description': '用电位器调节 LED 的亮度。',
+            'arduinoUnoR4Wifi.examples.servoSweep.name': '舵机来回扫描',
+            'arduinoUnoR4Wifi.examples.servoSweep.description': '让舵机在 0° 到 180° 之间来回转动。',
+            'arduinoUnoR4Wifi.examples.serialMonitor.name': '串口监视器',
+            'arduinoUnoR4Wifi.examples.serialMonitor.description': '每半秒把模拟引脚的数值打印到串口监视器上。',
+            'arduinoUnoR4Wifi.examples.ledMatrix.name': 'LED 点阵',
+            'arduinoUnoR4Wifi.examples.ledMatrix.description': '在板载 12x8 LED 点阵上显示一个闪烁的爱心。'
         },
         'zh-tw': {
-            'arduinoUnoR4Wifi.description': 'Provides Wi-Fi and Bluetooth connectivity, along with an on-board 12x8 LED matrix for visualizations.'
+            'arduinoUnoR4Wifi.description': 'Provides Wi-Fi and Bluetooth connectivity, along with an on-board 12x8 LED matrix for visualizations.',
+            'arduinoUnoR4Wifi.examples.blink.name': '閃爍',
+            'arduinoUnoR4Wifi.examples.blink.description': '讓板載 LED 閃爍。',
+            'arduinoUnoR4Wifi.examples.button.name': '按鍵',
+            'arduinoUnoR4Wifi.examples.button.description': '按住按鍵時點亮 LED。',
+            'arduinoUnoR4Wifi.examples.fade.name': '呼吸燈',
+            'arduinoUnoR4Wifi.examples.fade.description': '用 PWM 讓 LED 緩緩變亮再漸漸變暗。',
+            'arduinoUnoR4Wifi.examples.knob.name': '電位器調光',
+            'arduinoUnoR4Wifi.examples.knob.description': '用電位器調節 LED 的亮度。',
+            'arduinoUnoR4Wifi.examples.servoSweep.name': '舵機來回掃描',
+            'arduinoUnoR4Wifi.examples.servoSweep.description': '讓舵機在 0° 到 180° 之間來回轉動。',
+            'arduinoUnoR4Wifi.examples.serialMonitor.name': '串口監視器',
+            'arduinoUnoR4Wifi.examples.serialMonitor.description': '每半秒把類比引腳的數值印出到串口監視器上。',
+            'arduinoUnoR4Wifi.examples.ledMatrix.name': 'LED 點陣',
+            'arduinoUnoR4Wifi.examples.ledMatrix.description': '在板載 12x8 LED 點陣上顯示一個閃爍的愛心。'
         }
     },
     'extensions': {

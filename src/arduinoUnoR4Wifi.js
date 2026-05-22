@@ -44,12 +44,12 @@ const Pins = {
     D11: '11',
     D12: '12',
     D13: '13',
-    A0: 'A0',
-    A1: 'A1',
-    A2: 'A2',
-    A3: 'A3',
-    A4: 'A4',
-    A5: 'A5'
+    A0: '14',
+    A1: '15',
+    A2: '16',
+    A3: '17',
+    A4: '18',
+    A5: '19'
 };
 
 const Level = {
@@ -481,8 +481,6 @@ class OpenBlockArduinoUnoR4WifiDevice {
 
         // Create a new Arduino uno R4 WiFi peripheral instance
         this._peripheral = new ArduinoUnoR4Wifi(this.runtime, this.DEVICE_ID);
-
-        this._peripheral.numDigitalPins = 14;
     }
 
     /**

@@ -1,6 +1,6 @@
 {
   "name": "arduino-uno-r4-wifi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "ArthurZheng",
   "license": "MIT",
   "repository": {
@@ -22,6 +22,9 @@
   "openblock": {
     "name": "Arduino Uno R4 WiFi",
     "deviceId": "arduinoUnoR4Wifi",
+    "arch": [
+      "arduino-renesas_uno-w"
+    ],
     "manufactor": "arduino",
     "learnMore": "https://docs.arduino.cc/hardware/uno-r4-wifi",
     "type": "arduino",
@@ -41,12 +44,131 @@
     "connectionIconURL": "./assets/arduinoUnoR4Wifi-illustration.svg",
     "connectionSmallIconURL": "./assets/arduinoUnoR4Wifi-small.svg",
     "main": "./src/arduinoUnoR4Wifi.js",
+    "generator": "./src/generator.js",
     "translations": "./src/translations.js",
     "toolchains": "arduino-arduino-renesas_uno",
-    "programMode": ["upload"],
-    "programLanguage": ["block", "cpp"],
-    "tags": ["arduino"],
-    "helpLink": "https://wiki.openblock.cc/general-hardware-guidelines/boards/arduino-uno-r4-wifi"
+    "programMode": [
+      "upload"
+    ],
+    "tags": [
+      "arduino"
+    ],
+    "helpLink": "https://wiki.openblock.cc/general-hardware-guidelines/boards/arduino-uno-r4-wifi",
+    "libraries": "./libraries",
+    "examples": [
+      {
+        "id": "blink",
+        "name": {
+          "formatMessage": {
+            "id": "arduinoUnoR4Wifi.examples.blink.name",
+            "default": "Blink"
+          }
+        },
+        "description": {
+          "formatMessage": {
+            "id": "arduinoUnoR4Wifi.examples.blink.description",
+            "default": "Make the on-board LED blink."
+          }
+        },
+        "file": "./examples/blink.ob"
+      },
+      {
+        "id": "button",
+        "name": {
+          "formatMessage": {
+            "id": "arduinoUnoR4Wifi.examples.button.name",
+            "default": "Button"
+          }
+        },
+        "description": {
+          "formatMessage": {
+            "id": "arduinoUnoR4Wifi.examples.button.description",
+            "default": "Light up the LED while a push button is pressed."
+          }
+        },
+        "file": "./examples/button.ob"
+      },
+      {
+        "id": "fade",
+        "name": {
+          "formatMessage": {
+            "id": "arduinoUnoR4Wifi.examples.fade.name",
+            "default": "Fade"
+          }
+        },
+        "description": {
+          "formatMessage": {
+            "id": "arduinoUnoR4Wifi.examples.fade.description",
+            "default": "Smoothly fade an LED in and out using PWM."
+          }
+        },
+        "file": "./examples/fade.ob"
+      },
+      {
+        "id": "knob",
+        "name": {
+          "formatMessage": {
+            "id": "arduinoUnoR4Wifi.examples.knob.name",
+            "default": "Knob"
+          }
+        },
+        "description": {
+          "formatMessage": {
+            "id": "arduinoUnoR4Wifi.examples.knob.description",
+            "default": "Control LED brightness with a potentiometer."
+          }
+        },
+        "file": "./examples/knob.ob"
+      },
+      {
+        "id": "servoSweep",
+        "name": {
+          "formatMessage": {
+            "id": "arduinoUnoR4Wifi.examples.servoSweep.name",
+            "default": "Servo Sweep"
+          }
+        },
+        "description": {
+          "formatMessage": {
+            "id": "arduinoUnoR4Wifi.examples.servoSweep.description",
+            "default": "Sweep a servo back and forth between 0 and 180 degrees."
+          }
+        },
+        "file": "./examples/servoSweep.ob"
+      },
+      {
+        "id": "serialMonitor",
+        "name": {
+          "formatMessage": {
+            "id": "arduinoUnoR4Wifi.examples.serialMonitor.name",
+            "default": "Serial Monitor"
+          }
+        },
+        "description": {
+          "formatMessage": {
+            "id": "arduinoUnoR4Wifi.examples.serialMonitor.description",
+            "default": "Print analog readings to the Serial Monitor every half second."
+          }
+        },
+        "file": "./examples/serialMonitor.ob"
+      },
+      {
+        "id": "ledMatrix",
+        "name": {
+          "formatMessage": {
+            "id": "arduinoUnoR4Wifi.examples.ledMatrix.name",
+            "default": "LED Matrix"
+          }
+        },
+        "description": {
+          "formatMessage": {
+            "id": "arduinoUnoR4Wifi.examples.ledMatrix.description",
+            "default": "Display a blinking heart on the on-board 12x8 LED matrix."
+          }
+        },
+        "file": "./examples/ledMatrix.ob"
+      }
+    ]
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
